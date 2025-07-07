@@ -1,0 +1,22 @@
+name: Spike
+description: Time-boxed research or investigation task
+labels: ["type: spike"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Spike
+        Use this to investigate a technical or design approach.
+  - type: textarea
+    id: goal
+    attributes:
+      label: What is the goal of the spike?
+  - type: textarea
+    id: questions
+    attributes:
+      label: What questions need to be answered?
+  - type: input
+    id: timebox
+    attributes:
+      label: Timebox (in hours or days)
+      placeholder: e.g. 2 days
