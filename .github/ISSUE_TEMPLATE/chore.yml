@@ -1,0 +1,18 @@
+name: Chore
+description: Routine maintenance or internal work
+labels: ["type: chore"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Chore
+        For technical debt, refactoring, upgrades, or cleanup tasks.
+  - type: input
+    id: title
+    attributes:
+      label: Chore Title
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: What needs to be done?
