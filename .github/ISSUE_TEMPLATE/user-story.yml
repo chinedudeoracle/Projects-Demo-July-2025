@@ -1,0 +1,24 @@
+name: User Story
+description: A new user story or feature request
+labels: ["type: user story"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## User Story
+        Describe the user's need and the goal.
+  - type: input
+    id: as_a
+    attributes:
+      label: As a
+      placeholder: e.g. product manager
+  - type: input
+    id: i_want
+    attributes:
+      label: I want
+      placeholder: e.g. to see release reports
+  - type: input
+    id: so_that
+    attributes:
+      label: So that
+      placeholder: e.g. I can track sprint progress
