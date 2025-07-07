@@ -1,0 +1,26 @@
+name: Task
+description: A unit of work to be completed
+labels: ["type: task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Task
+        Use this to define a specific work item.
+  - type: input
+    id: summary
+    attributes:
+      label: Task Summary
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      placeholder: Describe the steps or requirements...
+  - type: dropdown
+    id: effort
+    attributes:
+      label: Estimated Effort
+      options:
+        - Small
+        - Medium
+        - Large
