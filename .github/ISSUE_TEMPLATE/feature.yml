@@ -1,0 +1,22 @@
+name: Feature
+description: A new product feature or capability
+labels: ["type: feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+        Describe the new capability you want to add.
+  - type: input
+    id: title
+    attributes:
+      label: Feature Title
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: What will this feature do?
+  - type: textarea
+    id: benefit
+    attributes:
+      label: What is the benefit or value?
